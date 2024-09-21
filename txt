@@ -1,0 +1,17 @@
+-ActiveMQ
+http://localhost:8161/
+admin
+admin
+
+
+-API
+http://localhost:8080/
+
+-Application.properties
+spring.activemq.broker-url=tcp://localhost:61616
+spring.activemq.user=admin
+spring.activemq.password=admin
+
+
+Download the ActiveMQ and use CLI to find the bin path in the downloaded file then start:
+.\activemq.bat start
